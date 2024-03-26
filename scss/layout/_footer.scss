@@ -1,0 +1,22 @@
+.footer{
+  background-color: #7f1917;
+  &__title{
+    font-weight: 700;
+  }
+  &__nav{
+    >li{
+      &:before{
+        position: relative;
+        top: 5px;
+      }
+      >a{
+        @include font-size(16px);
+      }
+    }
+  }
+  &__address{
+    >li{
+      display: flex;
+    }
+  }
+}

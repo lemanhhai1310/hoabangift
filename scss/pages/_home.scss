@@ -1,0 +1,134 @@
+.home{
+  &__step{
+    &__title{
+      @include font-size(16px);
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #020000;
+    }
+    &__desc{
+
+    }
+  }
+  &__about{
+    &__title{
+      letter-spacing: 1.34px;
+      color: #fc0303;
+      font-weight: 700;
+      @include font-size(32px);
+    }
+    &__desc{
+      font-weight: 700;
+      letter-spacing: 0.9px;
+      color: #020000;
+      @include font-size(18px);
+    }
+  }
+  &__congnghe{
+    background-color: #fd7419;
+    &__nav{
+      >*{
+        >*{
+          border: 1px solid;
+          border-color: #fff;
+          font-weight: 700;
+        }
+        &.uk-active{
+          >*{
+            color: #fb0505 !important;
+          }
+        }
+      }
+    }
+    &__title{
+      @include font-size(28px);
+      letter-spacing: 1.07px;
+      font-weight: 700;
+    }
+    &__desc{
+      @include font-size(17px);
+    }
+    &__btn{
+
+    }
+  }
+  &__quatang{
+    &__nav{
+      >*{
+        >*{
+          border: 1px solid;
+          border-color: #fd7419;
+          font-weight: 700;
+          @include font-size(16px);
+        }
+        &.uk-active{
+          >*{
+            background-color: #fd7419 !important;
+            color: #fff !important;
+          }
+        }
+      }
+    }
+    &__title{
+      font-weight: 700;
+      @include font-size(32px);
+      color: #f66504;
+    }
+    &__card{
+      &__title{
+        margin: 0;
+        @include font-size(16px);
+        a{
+          color: #504343;
+        }
+      }
+      &__cat{
+        color: #d09906;
+        @include font-size(14px);
+        font-weight: 500;
+      }
+      &__price{
+        margin-top: 10px;
+        font-weight: 700;
+        color: #020000;
+      }
+    }
+  }
+  &__inan{
+    background-color: #dec8b9;
+    &__card{
+      &__title{
+        font-weight: 700;
+        @include font-size(20px);
+        text-align: center;
+      }
+    }
+  }
+  &__taisao{
+    &__title{
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+  }
+  &__tintuc{
+    &__title{
+      font-weight: 700;
+      color: #f66504;
+    }
+    &__link{
+
+    }
+    &__name{
+      @include font-size(16px);
+      font-weight: 700;
+      margin-bottom: 6px;
+      a{
+
+      }
+    }
+    &__date{
+      @include font-size(13px);
+      color: #c5c6cf;
+    }
+  }
+}
